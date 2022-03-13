@@ -1,0 +1,48 @@
+<!-- <p>login works!</p> -->
+<!DOCTYPE html>
+<html lang="en ">
+
+<head>
+    <meta charset="UTF-8 ">
+    <meta http-equiv="X-UA-Compatible " content="IE=edge ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- moitié droite de la page -->
+    <div class="rectangleD ">
+        <img class="image " src="photos.png " alt="logo ">
+        <p class="gallery ">My Gallery</p>
+    </div>
+    <!-- moitié gauche -->
+    <div class="rectangle ">
+
+        <h2 style="margin-left: 39%; ">Créer un compte</h2>
+        <!-- formulaire -->
+        <form method="post " class="centre ">
+            <div>
+                <h3>Nom complet</h3>
+                <input class="input " type=" text " name="nom " id="nom ">
+                <h3 style="margin-top:7% ">Pseudo</h3>
+                <input class="input " type=" text " name="pseudo " id="pseudo ">
+                <h3 style="margin-top:7% ">Mot de passe</h3>
+                <input class="input " type=" text " name="password " id="password ">
+            </div>
+            <div>
+                <button class="bouton " type=" submit " routerLink="../accueil">
+                  <p style="margin-top:4%; color: aliceblue; ">S'inscrire</p>
+                  <p style="margin-top: 6%; ">Pas encore de compte? <a routerLink="../login">Se connecter</a></p>
+                </button>
+
+
+            </div>
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>

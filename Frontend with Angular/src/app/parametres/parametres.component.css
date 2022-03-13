@@ -1,0 +1,59 @@
+    .image {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    
+    .image1 {
+        margin-left: -3%;
+        margin-top: 13%;
+    }
+    
+    .div1 {
+        margin-top: -10%;
+        margin-left: 40%;
+    }
+    
+    .box {
+        position: absolute;
+        width: 568px;
+        height: 320px;
+        background: #FFFFFF;
+        box-shadow: 2px 2px 4px rgb(0, 0, 0);
+        border-radius: 30px;
+    }
+    
+    .txt {
+        color: darkgray;
+        margin-left: 5%;
+    }
+    
+    .txt1 {
+        font-size: 150%;
+        margin-left: 5%;
+    }
+    
+    .bouton {
+        position: absolute;
+        width: 18%;
+        background-color: black;
+        border-radius: 20px;
+        margin-left: 80%;
+        margin-top: -15%;
+    }
+    
+    .modifier {
+        color: aliceblue;
+    }
+    
+    .bouton1 {
+        border-color: #FF4910;
+        margin-left: 8%;
+        margin-top: 45%;
+        width: 45%;
+        background-color: white;
+        border-radius: 20px;
+    }
+    
+    .deconnecter {
+        color: #FF4910;
+    }

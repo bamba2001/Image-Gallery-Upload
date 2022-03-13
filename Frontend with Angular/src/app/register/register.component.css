@@ -1,0 +1,56 @@
+.rectangleD {
+    margin-left: 50%;
+    background-color: black;
+    height: 100%;
+}
+
+.image {
+    margin-top: 15%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.gallery {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    color: aliceblue;
+    font: bold;
+    margin-left: 35%;
+}
+
+.rectangle {
+    /* Rectangle 2 */
+    position: absolute;
+    width: 568px;
+    height: 568px;
+    left: 7%;
+    top: 5%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+
+.centre {
+    margin-left: 5%;
+}
+
+.input {
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 95%;
+    height: 50px;
+}
+
+.bouton {
+    position: absolute;
+    margin-top: 10%;
+    background-color: black;
+    size: 0px;
+    border-radius: 20px;
+    width: 90%;
+    height: 10%;
+}
+
+.inscrire {
+    margin-top: 50%;
+}
